@@ -24,7 +24,7 @@ function App({ message }: AppProps) {
   return (
     <>
       <h2 className="text-xl mb-8">{message}</h2>
-      <button onClick={() => setCount((prev) => prev + 1)}>
+      <button className="btn" onClick={() => setCount((prev) => prev + 1)}>
         Click me! - {count}
       </button>
       {data ? (

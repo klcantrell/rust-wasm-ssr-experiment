@@ -18,7 +18,7 @@ fn App(content: String) -> impl IntoView {
     view! {
         <main>
             <h1>Hello World!</h1>
-            <div id="react-app" inner_html={content}></div>
+            <div id="island" inner_html={content}></div>
         </main>
     }
 }
@@ -79,6 +79,7 @@ async fn home() -> impl Responder {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css">
         <script type="text/javascript">
             window.__HYDRATION_DATA__ = '{}'
         </script>

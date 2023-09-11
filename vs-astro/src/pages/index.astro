@@ -1,0 +1,11 @@
+---
+import App from "../components/App";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <App
+    message="Hello from Astro! This string needs to be the same during hydration."
+    client:load
+  />
+</Layout>

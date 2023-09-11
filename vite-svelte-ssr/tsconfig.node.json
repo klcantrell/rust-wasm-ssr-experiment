@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler"
+  },
+  "include": ["vite.site.config.ts", "vite.ssr.config.ts", "vite.hydration.config.ts"]
+}
